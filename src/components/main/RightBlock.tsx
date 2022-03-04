@@ -289,7 +289,7 @@ const RightBlock: React.FC<IProps> = ({slides, slideNumbers, setCurrentSlide, sl
                 <ProgressBar>
                     <ProgressBlock>
                         {slides.map((slide, key) => (
-                            <ProgressLine>
+                            <ProgressLine key={key}>
                                 <OrangeSquareInLine/>
                                 <OrangeLineTimer
                                     key={key}
