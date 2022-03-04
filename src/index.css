@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "MontsBold";
+  src: url("./fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "MontsRegular";
+  src: url("./fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "BodoniBold";
+  src: url("./fonts/Bodoni-Bold.woff") format("woff");
+  font-weight: bold;
+}
